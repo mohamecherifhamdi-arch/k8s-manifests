@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: school-back
-          image: school-back:latest
+          image: school-back:71dc761
           imagePullPolicy: Never
           ports:
             - containerPort: 8080
