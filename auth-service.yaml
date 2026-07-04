@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth-service
-          image: auth-service:a522930
+          image: auth-service:6f508a3
           imagePullPolicy: Never
           ports:
             - containerPort: 8083
